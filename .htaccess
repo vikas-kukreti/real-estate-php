@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^get/properties$ get/properties/ [NC,L]
+RewriteRule ^get/property/([0-9]+)$ get/property/?id=$1 [NC,L]
